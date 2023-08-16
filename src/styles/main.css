@@ -19,9 +19,19 @@ li {
     list-style-type: none;
 }
 
+.buttons {
+    display: flex;
+    margin: 0 25% 0 25%;
+    justify-content: center;
+    gap: 2rem;
+}
+
 .section {
     display: flex;
     flex-direction: column;
+    margin-top: 5%;
+    align-items: center;
+    gap: 2rem;
 }
 
 button {
