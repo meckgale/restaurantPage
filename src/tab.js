@@ -1,6 +1,6 @@
-const startersBtn = document.querySelector('.startersBtn')
-const mainCourseBtn = document.querySelector('.main-courseBtn')
-const drinksBtn = document.querySelector('.drinksBtn')
+startersBtn = document.querySelector('.startersBtn')
+mainCourseBtn = document.querySelector('.main-courseBtn')
+drinksBtn = document.querySelector('.drinksBtn')
 
 const starters = document.querySelector('.starters')
 const mainCourse = document.querySelector('.main-course')
