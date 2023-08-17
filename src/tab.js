@@ -1,6 +1,7 @@
-startersBtn = document.querySelector('.startersBtn')
-mainCourseBtn = document.querySelector('.main-courseBtn')
-drinksBtn = document.querySelector('.drinksBtn')
+function tab() {
+const startersBtn = document.querySelector('.startersBtn')
+const mainCourseBtn = document.querySelector('.main-courseBtn')
+const drinksBtn = document.querySelector('.drinksBtn')
 
 const starters = document.querySelector('.starters')
 const mainCourse = document.querySelector('.main-course')
@@ -23,4 +24,7 @@ drinks.classList.add('visible')
 starters.classList.remove('visible')
 mainCourse.classList.remove('visible')
 })
+}
+
+export {tab}
 
