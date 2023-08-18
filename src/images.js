@@ -16,9 +16,11 @@ import Water from './img/water.jpg'
 import Beer from './img/beer.jpg'
 import Wine from './img/wine.jpg'
 import Sangria from './img/sangria.jpg'
+// import { bodyPartComponent } from './body.js'
 
 const imgTomato = new Image()
 imgTomato.src = Tomato
+export {imgTomato}
 
 const imgLentil = new Image()
 imgLentil.src = Lentil
@@ -71,7 +73,33 @@ imgWine.src = Wine
 const imgSangria = new Image()
 imgSangria.src = Sangria
 
+// const soupsUl = document.querySelector('.soups');
+// const saladsUl = document.querySelector('.salads');
+// const meatsUl = document.querySelector('.meats');
+// const chickensUl = document.querySelector('.chickens');
+// const nonAlsUl = document.querySelector('.nonAls');
+// const alsUl = document.querySelector('.als');
 
+// const soupImageElements = [imgTomato, imgLentil, imgMushroom]
+// const saladImageElements = [imgCaesar, imgMediterranean, imgSeason]
+// const meatImageElements = [imgMeatball, imgSteak, imgKebab]
+// const chickenImageElements = [imgSchnitzel, imgChickenBasket, imgRoastChicken]
+// const nonAlImageElements = [imgCoffee, imgSoda, imgWater]
+// const alImageElements = [imgBeer, imgWine, imgSangria]
+
+// const categoryElements = [soupLi, saladLi, meatLi, chickenLi, nonAlLi, alLi]
+// const categoryImageElements = [soupImageElements, saladImageElements, meatImageElements, chickenImageElements, nonAlImageElements, alImageElements]
+
+// for (let i = 0; i < categoryElements.length; i++) {
+//     const currentCategory = categoryElements[i];
+//     const currentImageElements = categoryImageElements[i];
+  
+//     for (let j = 0; j < currentCategory.length; j++) {
+//       const listItem = currentCategory[j]; // Get the corresponding <li> element
+//       const image = currentImageElements[j]; // Get the corresponding <img> element
+//       listItem.appendChild(image); // Append the <img> element to the <li> element
+//     }
+//   }
 
 
 

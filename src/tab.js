@@ -1,11 +1,9 @@
+import {startDiv as starters, mainDiv as mainCourse, drinkDiv as drinks} from './body.js'
+
 function tab() {
 const startersBtn = document.querySelector('.startersBtn')
 const mainCourseBtn = document.querySelector('.main-courseBtn')
 const drinksBtn = document.querySelector('.drinksBtn')
-
-const starters = document.querySelector('.starters')
-const mainCourse = document.querySelector('.main-course')
-const drinks = document.querySelector('.drinks')
 
 startersBtn.addEventListener('click', function() {
 starters.classList.add('visible')

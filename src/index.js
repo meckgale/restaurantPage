@@ -1,15 +1,14 @@
 import './styles/reset.css'
 import './styles/main.css'
-import {test} from './test.js'
 import {headerComponent} from './header.js'
 import {tab} from './tab.js'
-import './images.js'
+import { bodyPartComponent } from './body.js'
 
-// const header = document.body.appendChild(headerComponent())
-// console.log(header)
-document.body.appendChild(headerComponent())
+const content = document.querySelector('#content')
+
+content.appendChild(headerComponent())
+content.appendChild(bodyPartComponent())
 tab()
-console.log(test())
 
 
 
