@@ -1,5 +1,22 @@
 import _ from 'lodash'
 import { imgTomato } from './images'
+import { imgLentil } from './images'
+import { imgMushroom } from './images'
+import { imgCaesar } from './images'
+import { imgMediterranean } from './images'
+import { imgSeason } from './images'
+import { imgMeatball } from './images'
+import { imgSteak } from './images'
+import { imgKebab } from './images'
+import { imgSchnitzel } from './images'
+import { imgChickenBasket } from './images'
+import { imgRoastChicken } from './images'
+import { imgCoffee } from './images'
+import { imgSoda } from './images'
+import { imgWater } from './images'
+import { imgBeer } from './images'
+import { imgWine } from './images'
+import { imgSangria } from './images'
 
 const startDiv = document.createElement('div')
 const mainDiv = document.createElement('div')
@@ -52,52 +69,69 @@ function bodyPartComponent() {
     drinkDiv.append(drinkH1, nonAlH3, nonAls, alH3, als)
 
     const soupLi = ['Tomato Soup', 'Lentil Soup', 'Mushroom Soup']
+    const imgSoups = [imgTomato, imgLentil, imgMushroom]
     for(let i = 0; i < soupLi.length; i++){
         let list = document.createElement('li')
         list.innerText = soupLi[i]
         list.classList.add('soup')
         soups.appendChild(list)
-        list.appendChild(imgTomato)
+        imgSoups[i].classList.add('img')
+        list.appendChild(imgSoups[i])
     }
 
     const saladLi = ['Caesar Salad', 'Mediterranean Salad', 'Season Salad']
+    const imgSalads = [imgCaesar, imgMediterranean, imgSeason]
     for(let i = 0; i < saladLi.length; i++){
         let list = document.createElement('li')
         list.innerText = saladLi[i]
         list.classList.add('salad')
         salads.appendChild(list)
+        imgSalads[i].classList.add('img')
+        list.appendChild(imgSalads[i])
     }
 
     const meatLi = ['Meatball', 'Steak', 'Kebab']
+    const imgMeats = [imgMeatball, imgSteak, imgKebab]
     for(let i = 0; i < meatLi.length; i++){
         let list = document.createElement('li')
         list.innerText = meatLi[i]
         list.classList.add('meat')
         meats.appendChild(list)
+        imgMeats[i].classList.add('img')
+        list.appendChild(imgMeats[i])
     }
 
     const chickenLi = ['Schnitzel', 'Chicken Basket', 'Roast Chicken']
+    const imgChickens = [imgSchnitzel, imgChickenBasket, imgRoastChicken]
     for(let i = 0; i < chickenLi.length; i++){
         let list = document.createElement('li')
         list.innerText = chickenLi[i]
         list.classList.add('chicken')
         chickens.appendChild(list)
+        imgChickens[i].classList.add('img')
+        list.appendChild(imgChickens[i])
     }
 
     const nonAlLi = ['Coffee', 'Soda', 'Water']
+    const imgNonAls = [imgCoffee, imgSoda, imgWater]
     for(let i = 0; i < nonAlLi.length; i++){
         let list = document.createElement('li')
         list.innerText = nonAlLi[i]
         list.classList.add('nonAl')
         nonAls.appendChild(list)
+        imgNonAls[i].classList.add('img')
+        list.appendChild(imgNonAls[i])
     }
 
     const alLi = ['Beer', 'Wine', 'Sangria']
+    const imgAls = [imgBeer, imgWine, imgSangria]
     for(let i = 0; i < alLi.length; i++){
         let list = document.createElement('li')
         list.innerText = alLi[i]
         list.classList.add('al')
         als.appendChild(list)
+        imgAls[i].classList.add('img')
+        list.appendChild(imgAls[i])
     }
  
     return bodyPart

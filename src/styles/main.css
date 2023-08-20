@@ -8,20 +8,38 @@ html {
 body {
     align-items: center;
     font-size: 16px;
-    padding-bottom: 1rem;
     font-family: 'Roboto', sans-serif;
     background-color: lightgray;
     width: 100%;
     gap: 2rem;
 }
 
+.soups, .salads, .meats, .chickens, .nonAls, .als {
+    padding-right: 2rem;
+    padding-bottom: 5rem;
+    border: 0.2rem solid rgb(145, 115, 40);
+}
+
 li {
     list-style-type: none;
+    display: flex;
+    margin-top: 5rem;
+    padding-left: 1rem;
+    gap: 5rem;
+    justify-content: space-between;
+    align-items: center;
+    font-style: italic;
+    border: 0.2rem solid rgb(145, 115, 40);
+}
+
+.img {
+    width: 10rem;
+    height: 10rem;
 }
 
 .buttons {
     display: flex;
-    margin: 0 25% 0 25%;
+    margin: 1% 25% 0 25%;
     justify-content: center;
     gap: 2rem;
 }

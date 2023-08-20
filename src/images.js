@@ -16,7 +16,6 @@ import Water from './img/water.jpg'
 import Beer from './img/beer.jpg'
 import Wine from './img/wine.jpg'
 import Sangria from './img/sangria.jpg'
-// import { bodyPartComponent } from './body.js'
 
 const imgTomato = new Image()
 imgTomato.src = Tomato
@@ -24,82 +23,71 @@ export {imgTomato}
 
 const imgLentil = new Image()
 imgLentil.src = Lentil
+export {imgLentil}
 
 const imgMushroom = new Image()
 imgMushroom.src = Mushroom
+export {imgMushroom}
 
 const imgCaesar = new Image()
 imgCaesar.src = Caesar
+export {imgCaesar}
 
 const imgMediterranean = new Image()
 imgMediterranean.src = Mediterranean
+export {imgMediterranean}
 
 const imgSeason = new Image()
 imgSeason.src = Season
+export {imgSeason}
 
 const imgMeatball = new Image()
 imgMeatball.src = Meatball
+export {imgMeatball}
 
 const imgSteak = new Image()
 imgSteak.src = Steak
+export {imgSteak}
 
 const imgKebab = new Image()
 imgKebab.src = Kebab
+export{imgKebab}
 
 const imgSchnitzel = new Image()
 imgSchnitzel.src = Schnitzel
+export {imgSchnitzel}
 
 const imgChickenBasket = new Image()
 imgChickenBasket.src = ChickenBasket
+export {imgChickenBasket}
 
 const imgRoastChicken = new Image()
 imgRoastChicken.src = RoastChicken
+export {imgRoastChicken}
 
 const imgCoffee = new Image()
 imgCoffee.src = Coffee
+export {imgCoffee}
 
 const imgSoda = new Image()
 imgSoda.src = Soda
+export {imgSoda}
 
 const imgWater = new Image()
 imgWater.src = Water
+export {imgWater}
 
 const imgBeer = new Image()
 imgBeer.src = Beer
+export {imgBeer}
 
 const imgWine = new Image()
 imgWine.src = Wine
+export {imgWine}
 
 const imgSangria = new Image()
 imgSangria.src = Sangria
-
-// const soupsUl = document.querySelector('.soups');
-// const saladsUl = document.querySelector('.salads');
-// const meatsUl = document.querySelector('.meats');
-// const chickensUl = document.querySelector('.chickens');
-// const nonAlsUl = document.querySelector('.nonAls');
-// const alsUl = document.querySelector('.als');
-
-// const soupImageElements = [imgTomato, imgLentil, imgMushroom]
-// const saladImageElements = [imgCaesar, imgMediterranean, imgSeason]
-// const meatImageElements = [imgMeatball, imgSteak, imgKebab]
-// const chickenImageElements = [imgSchnitzel, imgChickenBasket, imgRoastChicken]
-// const nonAlImageElements = [imgCoffee, imgSoda, imgWater]
-// const alImageElements = [imgBeer, imgWine, imgSangria]
-
-// const categoryElements = [soupLi, saladLi, meatLi, chickenLi, nonAlLi, alLi]
-// const categoryImageElements = [soupImageElements, saladImageElements, meatImageElements, chickenImageElements, nonAlImageElements, alImageElements]
-
-// for (let i = 0; i < categoryElements.length; i++) {
-//     const currentCategory = categoryElements[i];
-//     const currentImageElements = categoryImageElements[i];
-  
-//     for (let j = 0; j < currentCategory.length; j++) {
-//       const listItem = currentCategory[j]; // Get the corresponding <li> element
-//       const image = currentImageElements[j]; // Get the corresponding <img> element
-//       listItem.appendChild(image); // Append the <img> element to the <li> element
-//     }
-//   }
+export {imgSangria}
 
 
 
