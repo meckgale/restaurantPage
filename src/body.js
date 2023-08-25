@@ -1,4 +1,4 @@
-import _ from 'lodash'
+
 import { imgTomato } from './images'
 import { imgLentil } from './images'
 import { imgMushroom } from './images'
@@ -37,6 +37,7 @@ function bodyPartComponent() {
     salads.classList.add('salads')
 
     const maintH1 = document.createElement('h1')
+    maintH1.innerText = 'Main Course'
     const meatH3 = document.createElement('h3')
     meatH3.innerText = 'Meat'
     const meats = document.createElement('ul')
@@ -47,6 +48,7 @@ function bodyPartComponent() {
     chickens.classList.add('chickens')
 
     const drinkH1 = document.createElement('h1')
+    drinkH1.innerText = 'Drinks'
     const nonAlH3 = document.createElement('h3')
     nonAlH3.innerText = 'Non-Alcoholic Beverage'
     const nonAls = document.createElement('ul')
