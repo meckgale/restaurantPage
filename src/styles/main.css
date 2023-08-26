@@ -18,7 +18,8 @@ body {
     padding-right: 2rem;
     padding-bottom: 5rem;
     border: 0.2rem solid rgb(145, 115, 40);
-    width: 50%;
+    width: 35%;
+    min-width: 25rem;
 }
 
 li {
